@@ -1,0 +1,223 @@
+/* ----------Header---------- */
+header{
+    padding: 10px 0px;
+}
+header .menu{
+    font-size: 15px;
+}
+header .menu li{
+    margin-right: 10px;
+}
+/* ----------Header END---------- */
+
+
+/* ----------Background---------- */
+.bg{
+    background: url(../img/bg.png);
+    background-size: cover;
+    padding: 190px 0px;
+    color: white;
+}
+.bg h1{
+    text-align: center;
+}
+.bg p{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.bg button{
+    margin: 0 auto;
+    display: block;
+    background: #99c50a;
+    padding:17px 31px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* ----------Background END---------- */
+
+/* 
+/* ----------Our---------- */
+.our{
+    padding: 80px 0px;
+}
+.our img{
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 30px;
+}
+.our h3{
+    text-align: center;
+}
+.our .pone{
+    text-align: center;
+    padding-top: 30px;
+}
+.our .ptwo{
+    text-align: center;
+    padding-top: 5px;
+}
+/* ----------Our END---------- */
+
+
+/* ----------Wallet---------- */
+/* .wallet .simg{
+    width: 200px;
+}
+.sofa{
+    background: #e2f8ff;
+    padding: 30px 0px;
+}
+.sofaim{
+    padding-left: 90px;
+}
+.sofa button{
+    padding: 9px 20px;
+    border-radius: 10px;
+    background: #26a6d1;
+    color: white;
+    border: none;
+}
+.wallet p{
+    width: 74%;
+    font-size: 19px;
+}
+.wallett{
+    padding: 30px 0px;
+    background: #f5f9eb;
+}
+.wallett button{
+    padding: 9px 20px;
+    border-radius: 10px;
+    background: #add136;
+    color: white;
+    border: none;
+}
+.wallettim{
+    padding-left: 99px;
+}
+.wallet .wimg{
+    width: 160px;
+} */
+/* ----------Wallet END---------- */
+
+/* ----------London---------- */
+.london .card-one{
+    width: 900px;
+}
+.project{
+    padding: 50px 0px;
+}
+.project button{
+    padding: 7px 19px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: none;
+}
+.london{
+    padding: 50px;
+}
+.car{
+    border-radius: 15px;
+}
+.london img{
+    width: 100%;
+}
+.lon-one{
+    padding: 19px 10px 0px 10px;
+}
+.lon-two-one p{
+    text-align: left;
+}
+.lon-two{
+    padding-top: 20px;
+}
+.lon-two-two p{
+   text-align: right;
+    display: block;
+}
+.lon-two- p{
+}
+.lon-two hr{
+    margin-top: -1px;
+}
+.last{
+    padding: 50px;
+}
+.last img{
+    width: 100%;
+    height: 50px;
+}
+/* ----------London END---------- */
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 992px) {
+    .project button{
+        margin-top: 10px;
+        width: 150px;
+        font-size: 15px;
+        padding: 6px 10px;
+        margin-top: 50px;
+    }
+    .project{
+        padding-top: 10px;
+    }
+    .card-two{
+        margin: 40px 0px;
+    }
+    .car{
+        width: 390px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .project button{
+        margin-top: 10px;
+        width: 150px;
+        font-size: 14px;
+        padding: 6px 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    .project{
+        padding-top: 10px;
+    }
+    .card-two{
+        margin: 40px 0px;
+    }
+    .car{
+        width: 370px;
+        margin: 0 auto;
+    }
+    .project h3{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .project button{
+        width: 150px;
+        font-size: 14px;
+        padding: 6px 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    .project{
+        padding-top: 10px;
+    }
+    .card-two{
+        margin: 40px 0px;
+    }
+    .car{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .project h3{
+        text-align: center;
+    }
+}
